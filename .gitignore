@@ -1,0 +1,25 @@
+# Rust build output
+/target/
+**/*.rs.bk
+*.pdb
+
+# Infoarena test files (input/output)
+*.in
+*.out
+*.ok
+
+# Local compiled binaries (e.g. from running rustc directly)
+/sol
+*.exe
+
+# Editors / IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
